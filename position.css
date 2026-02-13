@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.box {
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.static-box {
+    background-color: blue;
+    position: static;
+}
+
+.relative-box {
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+
+.absolute-box {
+    background-color: red;
+    position: absolute;
+    top: 1px;
+    right: 290px;
+}

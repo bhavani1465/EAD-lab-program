@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #333;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}

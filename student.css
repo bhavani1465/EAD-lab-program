@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(211, 71, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 15px 4px 10px rgba(10, 1, 17, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;  
+    background-color:whitesmoke;
+}
+form {
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;   
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+input:focus, textarea:focus {
+    border-color: lightblue;
+    box-shadow: navy;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: blue;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}                                                                 
+form {
+    width: 400px;
+    margin: 50px auto;
+}
+fieldset {
+    border: 2px solid lightsalmon;
+    padding: 20px;           
+    border-radius: 8px;
+}
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;     
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

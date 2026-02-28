@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    background: #333;
+    padding: 0;
+}
+
+.nav li {
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    background: #555;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    list-style: none;
+    background: #444;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 20px;
+}
+
+.dropdown:hover .menu {
+    display: block;
+}

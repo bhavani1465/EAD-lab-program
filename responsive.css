@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+/* Two-column layout (Desktop) */
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.left {
+    background: steelblue;
+}
+
+.right {
+    background: teal;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
